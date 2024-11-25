@@ -2,9 +2,9 @@ from setuptools import find_packages
 from setuptools import setup
 from typing import List
 
-PROJECT_NAME = "Insurance Prediction"
+PROJECT_NAME = "Flight Price Prediction"
 VERSION = "0.0.1"
-DESCRIPTION = "This is a project for predicting the insurance charges based on other features."
+DESCRIPTION = "This is a project for predicting the price of the flight based on other features."
 AUTHOR_NAME = "Ali Farid Khan"
 AUTHOR_EMAIL = "alifaridkhan313@gmail.com"
 
