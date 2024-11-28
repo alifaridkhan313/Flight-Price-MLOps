@@ -1,0 +1,24 @@
+Constants related notes: 
+This file is used for modularity and simiplicity of our flow
+This file can be used in future for different projects as well
+
+
+flow of the code base
+articfacts
+    |--data ingestion 
+        |--ingestion directory 
+            |--train.csv
+            |--test.csv 
+        |--raw data directory
+            |--raw.csv
+    |--data transformation
+        |--processor 
+            |--feature_engineering.pkl
+            |--processor.pkl
+        |--transformation 
+            |--train.csv
+            |--test.csv
+    |--model trainer
+        |--model.pkl
+
+this will create the files automatically once the file is runned it may take time depending on the size of the file abnd size of the data
