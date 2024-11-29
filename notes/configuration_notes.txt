@@ -1,0 +1,13 @@
+Configuration related notes: 
+This file is created and used after constants file 
+This file is used to join the paths. 
+
+The variables that we created in constants file will be used here. 
+After the execution of the file it will take all the variables and create a new variable by joining all the paths. 
+this is a simple logic that makes our code simpler and modular. 
+
+
+In consatant file:
+Variable_1 = name/file name 
+In Configuration file::
+Variable_2 = multiple Variable_1
