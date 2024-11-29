@@ -51,7 +51,7 @@ TEST_FILE_PATH = os.path.join(
 # Data Transformation steps:
 
 
-PREPROCESSING_OBJ_FILE = os.path.join(
+PREPROCESSING_OBJECT_FILE = os.path.join(
     ROOT_DIR, 
     ARTIFACT_DIR_KEY, 
     DATA_TRANSFORMATION_ARTIFACT, 
